@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Quizzez
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Available Scripts
+
+A list of quizzes on react-redux + CSS (Without creating a quiz yet). The project is published on Vercel.
+[View the project](https://quizzez-react.vercel.app/)    
+
 
 In the project directory, you can run:
 
