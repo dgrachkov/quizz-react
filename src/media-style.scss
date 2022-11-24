@@ -54,6 +54,9 @@
         border-radius: 16px;
         .progress {
           height: 12px;
+          .progress_bar {
+            height: 12px;
+          }
         }
         .quiz_template_header {
           margin-top: 18px;
@@ -82,10 +85,11 @@
           display: block;
           & button {
             width: 100%;
+            margin: 0px;
           }
           & a {
             & button {
-              margin-top: 15px;
+              margin: 15px 0px 0px 0px; 
             }
           }
         }
