@@ -1,0 +1,12 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" class="ionicon">
+ <title>Menu</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m88,152l336,0m-336,104l336,0m-336,104l336,0" stroke-width="48" stroke-miterlimit="10" stroke-linecap="round" stroke="#ebebeb" fill="none"/>
+ </g>
+</svg>

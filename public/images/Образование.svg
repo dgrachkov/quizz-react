@@ -1,0 +1,13 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" class="ionicon">
+ <title>School</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m31,188l224,-128l224,128l-224,128l-224,-128z" stroke-width="32" stroke-linejoin="round" stroke-linecap="round" stroke="#232323" fill="none"/>
+  <path id="svg_2" d="m111,238l0,128l144,80l144,-80l0,-128m80,128l0,-176m-224,128l0,128" stroke-width="32" stroke-linejoin="round" stroke-linecap="round" stroke="#232323" fill="none"/>
+ </g>
+</svg>

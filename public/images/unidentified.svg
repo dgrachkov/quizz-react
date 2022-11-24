@@ -1,0 +1,13 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" class="ionicon">
+ <title>Help</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" stroke-width="40" stroke-miterlimit="10" stroke-linecap="round" stroke="#232323" fill="none" d="m160,164s1.44,-33 33.54,-59.46c19.06,-15.71 41.95,-20.26 62.46,-20.54c18.73,-0.23 35.47,2.94 45.48,7.82c17.11,8.38 50.52,28.78 50.52,72.18c0,45.67 -29.18,66.37 -62.35,89.18s-41.65,45.18 -41.65,70.82"/>
+  <circle fill="#232323" id="svg_2" r="32" cy="399.99" cx="248"/>
+ </g>
+</svg>

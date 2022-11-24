@@ -1,0 +1,12 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" class="ionicon">
+ <title>Arrow Forward</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m268,112l144,144l-144,144m124,-144l-292,0" stroke-width="48" stroke-linejoin="round" stroke-linecap="round" stroke="#232323" fill="none"/>
+ </g>
+</svg>
