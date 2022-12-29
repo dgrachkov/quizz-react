@@ -7,5 +7,5 @@
 
 
 
-_New version (2.0)_ of the react-redux + SCSS test list.  New design, it is possible to view information about the quiz. You can also create a test yourself (you can't add a photo). The [PROJECT](https://quizzez-react.vercel.app/) is published on the Vercel.
+_New version (2.0)_ of the react-redux + SCSS test list.  New design, it is possible to view information about the quiz. You can also create a test yourself (you can't add a photo). The [PROJECT](https://quizz-react-eight.vercel.app/) is published on the Vercel.
    
