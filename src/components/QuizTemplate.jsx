@@ -8,8 +8,9 @@ const QuizTemplate = ({quiz, paramsId}) => {
   function сonfirmAnswer(paramsId, index) {
     const selectedQuiz = {
       selectedQuizId: paramsId,
-      answerIndex: index
+      answerIndex: index,
     }
+    
     dispatch(chooseAnswer(selectedQuiz));
   }
 
@@ -18,27 +19,31 @@ const QuizTemplate = ({quiz, paramsId}) => {
 
   return (
     <div className='quiz_template'>
-      <div className='progress'>
-        <div 
-          style={{ width: `${progressPercent}%` }} 
-          className='progress_bar'>
-        </div>
+      <div className='quiz_template_content'>
+        <header>
+          <div className='quiz_template_question'>
+            <p>{quiz.step + 1}/{quiz.stages.length}</p>
+            <h1>{correctStage.questionName}</h1>
+          </div>
+          <div className='progress'>
+            <div 
+              style={{ width: `${progressPercent}%` }} 
+              className='progress_bar'>
+            </div>
+          </div>
+        </header>
+        <ul className='answers_list'>
+          {correctStage.answers.map((answer, index) => (
+            <li 
+              className='answer' 
+              key={index} 
+              onClick={() => сonfirmAnswer(paramsId, index)}
+            >
+              <span>{index + 1}.</span> {answer}
+            </li>
+          ))}
+        </ul>
       </div>
-      <header className='quiz_template_header'>
-        <h1>{correctStage.questionName}</h1>
-        <span>{quiz.step + 1}/{quiz.stages.length}</span>
-      </header>
-      <ul className='answers_list'>
-        {correctStage.answers.map((answer, index) => (
-          <li 
-            className='answer' 
-            key={index} 
-            onClick={() => сonfirmAnswer(paramsId, index)}
-          >
-            {answer}
-          </li>
-        ))}
-      </ul>
     </div>
   )
 }

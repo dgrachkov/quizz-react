@@ -1,0 +1,31 @@
+.input_form {
+  margin-top: 15px;
+  & label {
+    font-size: 15px;
+    color: #3e3e3e;
+  }
+  & input {
+    width: 100%;
+    margin-top: 8px;
+    box-sizing: border-box;
+    display: block;
+    background: #ebebeb;
+    border: 1px solid rgba(35, 35, 35, 0.502);
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 15px;
+    color: #232323;
+    outline: none;
+  }
+  & input:focus {
+    border: 1px solid #4158D0;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 606px) {
+  .input_form {
+    & label {
+      font-size: 14px;
+    }
+  }
+}

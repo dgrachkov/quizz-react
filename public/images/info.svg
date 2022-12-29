@@ -1,0 +1,15 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" class="ionicon">
+ <title>Information Circle</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" stroke-width="32" stroke-miterlimit="10" stroke="#ebebeb" fill="none" d="m248,64c-101.61,0 -184,82.39 -184,184s82.39,184 184,184s184,-82.39 184,-184s-82.39,-184 -184,-184z"/>
+  <path id="svg_2" d="m220,220l32,0l0,116" stroke-width="32" stroke-linejoin="round" stroke-linecap="round" stroke="#ebebeb" fill="none"/>
+  <path id="svg_3" d="m208,340l88,0" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round" stroke="#ebebeb" fill="none"/>
+  <path fill="#ebebeb" id="svg_4" d="m248,130a26,26 0 1 0 26,26a26,26 0 0 0 -26,-26z"/>
+ </g>
+</svg>
